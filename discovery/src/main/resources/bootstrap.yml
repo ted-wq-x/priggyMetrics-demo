@@ -1,0 +1,19 @@
+#我擦
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+   prefer-ip-address: true
+
+spring:
+  application:
+    name: discovery
+  cloud:
+    config:
+        fail-fast: true
+        uri: http://localhost:8888
+        username: user
+        password: wangq332
+
+

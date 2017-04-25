@@ -1,0 +1,23 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+  profiles:
+    active: native
+  application:
+    name: config
+
+#添加访问密码
+security:
+  user:
+    name: user
+    password: wangq332
+
+MONGODB_PASSWORD: wangq332
+CONFIG_SERVICE_PASSWORD: wangq332
+ACCOUNT_SERVICE_PASSWORD: wangq332
+

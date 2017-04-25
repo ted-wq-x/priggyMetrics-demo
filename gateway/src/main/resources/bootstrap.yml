@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    config:
+      fail-fast: true
+      uri: http://localhost:8888
+      username: user
+      password: wangq332
+
+
+#eureka:
+#  client:
+#    service-url: http://localhost:8761/discovery/
